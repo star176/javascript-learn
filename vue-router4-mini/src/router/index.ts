@@ -17,7 +17,7 @@ export const useRoute = () => {
 
 }
 
-export const createRouter = (): Router => {
+export const createRouter = (options: RouterOptions): Router => {
     const router: Router = {
         install() { },
         markRady() { },
